@@ -4,7 +4,7 @@
  * This is part of the ArraysClasses Assignment.
  * This Cats class defines types of cats
  */
-public class Cats {
+public class Cat {
     String name;
     String breed;
     boolean longHair;
@@ -13,7 +13,7 @@ public class Cats {
     boolean spayed;
 
     public static void main(String[] args) {
-        Cats c1 = new Cats();
+        Cat c1 = new Cat();
         c1.name = "Whiskers";
         c1.breed = "Calico";
         c1.longHair = false;

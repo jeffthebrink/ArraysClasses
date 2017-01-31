@@ -28,7 +28,7 @@ public class RestaurantMenu {
     System.out.println("The item you have selected is menu item " + r1.menuNumber + " .");
     System.out.println("There are " + r1.qtyOnHand + " " + r1.itemName + "s on hand.");
     System.out.println( r1.qtyNeededToOrder[0] + " units of this item needs to be ordered.");
-    
+
     }
 
 

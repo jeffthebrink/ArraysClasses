@@ -4,14 +4,14 @@
  * This is part of the ArraysClasses Assignment.
  * The Sports class defines and delineates different sports from one another
  */
-public class Sports {
+public class Sport {
     String name;
     int numberOfPlayers;
     boolean usesBall;
     int[] myListOfInts;
 
     public static void main(String[] args) {
-        Sports s1 = new Sports();
+        Sport s1 = new Sport();
         s1.name = "Baseball";
         s1.myListOfInts = new int[7];
         s1.myListOfInts[1] = 10;
